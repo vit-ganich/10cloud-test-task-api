@@ -14,7 +14,7 @@
   "version": "1.0.0",
   "scripts": {
     "pretest": "tsc",
-    "test": "mocha dist/test/smoke.spec.js"
+    "test": "mocha dist/test/smoke.spec.js --timeout 10000"
   },
   "repository": {
     "type": "git",
